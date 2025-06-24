@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<link rel="icon" type="image/png" href="favicon.png">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Para o Amor da Minha Vida</title>
+    
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+
+                .glass {
+            background: rgba(255, 255, 255, 0.35);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #FFF8F0; 
+            color: #4A2E2A; 
+        }
+        h1, h2, h3, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .title-underline {
+            display: inline-block;
+            position: relative;
+        }
+        .title-underline::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #D4A5A5; 
+            transition: width 0.4s ease-in-out;
+        }
+        .in-view .title-underline::after {
+            width: 80%;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: -21px;
+            width: 12px;
+            height: 12px;
+            background-color: #D4A5A5;
+            border: 2px solid #FFF8F0;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        
+        .fade-in-section {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in-section.in-view {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+   
+                <header class="h-[25vh] md:h-screen w-full flex flex-col justify-center items-center text-white relative">
+          
+            <div class="absolute inset-0 bg-black opacity-40 z-0"></div>
+   
+            <img src="https://i.ibb.co/TDnRpjLX/Whats-App-Image-2025-06-21-at-21-20-46.jpg" 
+                 onerror="this.onerror=null;this.src='https://placehold.co/1200x800';"
+                 alt="Foto romântica do casal" 
+                 class="absolute inset-0 w-full h-full object-cover shadow-lg border-4 border-white/30">
+            <div class="text-center z-10 p-4">
+                
+                <h1 id="typing-title" class="text-4xl md:text-6xl lg:text-7xl font-serif mb-4 animate-[fadeInDown_1s_ease-out]"></h1>
+                <p class="text-lg md:text-xl max-w-2xl mx-auto animate-[fadeInUp_1s_ease-out_0.5s]">Um pequeno lembrete digital de um amor que é maior que o universo.</p>
+            </div>
+            <a href="#qualidades" class="absolute bottom-10 z-10 animate-bounce">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>
+            </a>
+        </header>
+
+    <main>
+        <!-- Seção 2: Qualidades -->
+        <section id="qualidades" class="py-20 px-6 bg-white fade-in-section">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl md:text-5xl font-serif mb-12 title-underline">Decifrando Você</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Item de Qualidade 1 -->
+                    <div class="p-6 rounded-lg transition-transform transform hover:scale-105 hover:shadow-xl">
+                        <div class="flex justify-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#D4A5A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg></div>
+                        <h3 class="text-2xl font-serif mb-2">Seu Sorriso</h3>
+                        <p class="text-gray-600">O jeito que seus olhos se fecham um pouquinho quando você sorri de verdade. Ilumina qualquer lugar.</p>
+                    </div>
+                    <!-- Item de Qualidade 2 -->
+                     <div class="p-6 rounded-lg transition-transform transform hover:scale-105 hover:shadow-xl">
+                         <div class="flex justify-center mb-4">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#D4A5A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"/>
+                                 <circle cx="12" cy="12" r="3"/>
+                             </svg>
+                         </div>
+                         <h3 class="text-2xl font-serif mb-2">Seus Olhos</h3>
+                         <p class="text-gray-600">Esses seus olhos azuis... O brilho deles me faz enxergar o mundo de um jeito mais bonito. Eles dizem tudo, mesmo quando você não fala nada.</p>
+                     </div>
+                      <!-- Item de Qualidade 3 -->
+                    <div class="p-6 rounded-lg transition-transform transform hover:scale-105 hover:shadow-xl">
+                        <div class="flex justify-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#D4A5A5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg></div>
+                        <h3 class="text-2xl font-serif mb-2">Seu Coração Gigante</h3>
+                        <p class="text-gray-600">Sua capacidade de cuidar dos outros e sua empatia genuína. Você torna o mundo um lugar melhor.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 3: Linha do Tempo -->
+        <section id="timeline" class="py-20 px-6 fade-in-section">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-serif text-center mb-16 title-underline">Nossa Jornada</h2>
+                <div class="relative border-l-2 border-dashed border-[#D4A5A5] ml-4">
+                    <!-- Item da Linha do Tempo 1 -->
+                    <div class="mb-12 ml-8 timeline-item">
+                        <p class="font-semibold text-lg mt-1">Onde Tudo Começou</p>
+                        <p class="text-gray-600 mt-2">Mal sabia eu que levar minha cachorra para uma consulta veterinária na faculdade resultaria em tudo isso que estamos vivendo.</p>
+                    </div>
+                    <!-- Item da Linha do Tempo 2 -->
+                    <div class="mb-12 ml-8 timeline-item">
+                        <p class="font-semibold text-lg mt-1">Nossa Primeira Aventura</p>
+                        <p class="text-gray-600 mt-2">Me lembro até hoje da primeira vez que saímos, em que fomos num rodízio e você ficou com raiva porque eu não parava de comer kkkkkkkk.</p>
+                    </div>
+                    <!-- Item da Linha do Tempo 3 -->
+                    <div class="mb-12 ml-8 timeline-item">
+                        <p class="font-semibold text-lg mt-1">Aquela Gargalhada</p>
+                        <p class="text-gray-600 mt-2">Lembra daquela vez que você tentou fazer um jantar romântico e acabou derrubando a vela na mesa? Na hora foi um pouco desesperador, mas quando vi tua cara eu confesso que me segurei pra não dar uma risada.</p>
+                    </div>
+                    <!-- Item da Linha do Tempo 4 -->
+                    <div class="ml-8 timeline-item">
+                        <p class="font-semibold text-lg mt-1">E o Futuro que Nos Espera</p>
+                        <p class="text-gray-600 mt-2">Cada dia ao seu lado é uma nova página na nossa linda história. E mal posso esperar pelos próximos capítulos juntos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 4: Galeria de Fotos -->
+        <section id="gallery" class="py-20 px-6 bg-white fade-in-section">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-serif text-center mb-12 title-underline">Galeria de Memórias</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div class="overflow-hidden rounded-lg shadow-lg border border-[#f3e6e6] transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:border-[#D4A5A5]">
+                        <img src="https://i.ibb.co/YFV8X493/Whats-App-Image-2025-06-21-at-21-49-56.jpg" loading="lazy" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" alt="Foto da viagem do casal">
+                    </div>
+                    <div class="overflow-hidden rounded-lg shadow-lg border border-[#f3e6e6] transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:border-[#D4A5A5]">
+                        <img src="https://i.ibb.co/KcJccCKc/Whats-App-Image-2025-06-22-at-02-17-12.jpg" loading="lazy" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" alt="Selfie do casal">
+                    </div>
+                    <div class="overflow-hidden rounded-lg shadow-lg border border-[#f3e6e6] transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:border-[#D4A5A5]">
+                        <img src="https://i.ibb.co/v48JtS3G/Whats-App-Image-2025-06-21-at-21-45-23.jpg" loading="lazy" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" alt="Foto do jantar romântico">
+                    </div>
+                    <div class="overflow-hidden rounded-lg shadow-lg border border-[#f3e6e6] transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:border-[#D4A5A5]">
+                        <img src="https://i.ibb.co/HT0qtR1C/Whats-App-Image-2025-06-22-at-19-58-19.jpg" loading="lazy" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" alt="Foto do casal no pôr do sol">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 5: Carta Aberta -->
+                <section id="letter" class="py-20 px-6 fade-in-section">
+            <div class="glass max-w-3xl mx-auto text-justify text-lg leading-relaxed p-8 md:p-12 rounded-lg shadow-xl">
+                <h2 class="text-4xl md:text-5xl font-serif mb-12 title-underline text-center">Você é...</h2>
+                <p class="mb-4">...A minha paz em meio ao caos. A certeza de que, não importa o quão difícil o dia tenha sido, eu tenho um porto seguro para voltar. Você é a risada que me tira do sério e o abraço que conserta tudo ...</p>
+                <p class="mb-4">Antes de você, eu não sabia que era possível encontrar alguém que entendesse meu silêncio e celebrasse minhas vitórias como se fossem suas. Você não apenas entrou na minha vida, você se tornou o meu lar ...</p>
+                <p>Cada detalhe seu, da sua força à sua delicadeza, compõe a mulher incrível que eu tenho a sorte de chamar de minha. Obrigado por ser exatamente quem você é. Obrigado por me deixar fazer parte do seu mundo ...</p>
+                <p class="mt-8 font-semibold">Você é, e sempre será, a minha melhor escolha.</p>
+            </div>
+        </section>
+
+        <!-- Seção 6: Trilha Sonora -->
+        <section id="playlist" class="py-20 px-6 bg-white fade-in-section">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-4xl md:text-5xl font-serif mb-12 title-underline">Nossa Trilha Sonora</h2>
+                <p class="mb-8 max-w-2xl mx-auto">Algumas músicas que contam um pouco de cada fase da nossa história, músicas estas que poderiam ser dedicadas a um momento, mas que eu escolhi dedicar a você pelo resto da minha vida.</p>
+
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5Wn1mTVwpKdlXxJpxglrBt?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>            </div>
+        </section>
+
+    </main>
+    
+    <!-- Rodapé -->
+    <footer class="text-center py-10 bg-[#4A2E2A] text-white">
+        <p class="font-serif text-2xl mb-2">
+            Com todo o amor do mundo 
+            <span class="heart-beat" aria-label="coração" role="img">🤍</span>
+        </p>
+        <p class="text-xl">Tarciso Ferreira</p>
+    </footer>
+    
+    <style>
+
+    .heart-beat {
+        display: inline-block;
+        animation: heartBeat 1s infinite;
+        transform-origin: center;
+    }
+    @keyframes heartBeat {
+        0%, 100% { transform: scale(1);}
+        10%, 30%, 50%, 70%, 90% { transform: scale(1.2);}
+        20%, 40%, 60%, 80% { transform: scale(0.95);}
+    }
+    </style>
+    <script>
+        
+        const sections = document.querySelectorAll('.fade-in-section');
+        const titles = document.querySelectorAll('h2');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+        
+        titles.forEach(title => {
+            observer.observe(title);
+        });
+    </script>
+        
+    <a href="#" id="backToTop" class="fixed bottom-6 right-6 bg-[#D4A5A5] text-white p-3 rounded-full shadow-lg hover:bg-[#b97c7c] transition-all duration-300 z-50 opacity-0 pointer-events-none" title="Voltar ao topo" aria-label="Voltar ao topo">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+      </svg>
+    </a>
+    <script>
+      
+      const backToTop = document.getElementById('backToTop');
+      window.addEventListener('scroll', () => {
+        if(window.scrollY > 300){
+          backToTop.classList.remove('opacity-0','pointer-events-none');
+          backToTop.classList.add('opacity-100');
+        } else {
+          backToTop.classList.add('opacity-0','pointer-events-none');
+          backToTop.classList.remove('opacity-100');
+        }
+      });
+      
+      backToTop.addEventListener('click', function(e){
+        e.preventDefault();
+        window.scrollTo({top:0, behavior:'smooth'});
+      });
+    </script>
+        <script>
+      
+      const text = "Maria Yasmin Sophia Santos";
+      const title = document.getElementById("typing-title");
+      let idx = 0;
+    
+      function typeWriter() {
+        if (idx < text.length) {
+          title.textContent += text.charAt(idx);
+          idx++;
+          setTimeout(typeWriter, 90);
+        }
+      }
+      typeWriter();
+    </script>
+</body>
+</html>
